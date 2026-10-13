@@ -213,7 +213,7 @@ While the agreement between our derived mass values and the catalog entries is e
 
 ```
 Gravitational Lensing/
-├── Gra_len (1).ipynb                 # Main Colab / Jupyter analysis notebook
+├── Gra_len.ipynb                     # Main Colab / Jupyter analysis notebook
 ├── README.md                         # Project documentation and summary
 ├── graph1.png                        # Figure 1: Distribution of Einstein Radii
 ├── result1.png                       # Figure 2: Calculated vs Published Mass Table Preview
@@ -251,7 +251,7 @@ Open and run the notebook directly in your browser:
 1. Clone or download the repository into your workspace.
 2. Launch Jupyter Notebook or JupyterLab:
    ```bash
-   jupyter notebook "Gra_len (1).ipynb"
+   jupyter notebook "Gra_len.ipynb"
    ```
 3. Run all cells sequentially (`Cell` $\to$ `Run All`).
 
