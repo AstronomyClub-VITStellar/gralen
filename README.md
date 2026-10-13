@@ -138,7 +138,7 @@ The key scientific findings and visual results generated from the SLACS gravitat
 The distribution of observed Einstein radii $\theta_E$ across the 50 SLACS lens systems ranges from approximately $0.6''$ to $1.8''$, peaking near $1.0'' - 1.2''$. This distribution reflects the typical velocity dispersion profile ($\sigma_v \approx 200 - 350\text{ km/s}$) of massive intermediate-redshift early-type elliptical galaxies.
 
 <p align="center">
-  <img src="download (2).png" alt="Distribution of Einstein Radii in the SLACS Sample" width="850"/>
+  <img src="graph1.png" alt="Distribution of Einstein Radii in the SLACS Sample" width="850"/>
 </p>
 
 *Figure 1: Histogram displaying the distribution of Einstein radii ($\theta_E$ in arcseconds) across the cleaned SLACS sample.*
@@ -149,7 +149,7 @@ The distribution of observed Einstein radii $\theta_E$ across the 50 SLACS lens 
 The table below displays the calculated mass ($M_{\text{calculated}}$), published catalog mass ($M_{\text{published}}$), and their corresponding mass ratio ($M_{\text{calculated}} / M_{\text{published}}$) for representative systems in the SLACS sample:
 
 <p align="center">
-  <img src="Screenshot 2026-10-13 114926.png" alt="Calculated vs Published Lens Mass Preview" width="750"/>
+  <img src="result1.png" alt="Calculated vs Published Lens Mass Preview" width="750"/>
 </p>
 
 *Figure 2: Sample inspection table comparing calculated masses and published catalog values with mass ratios closely tracking unity.*
@@ -160,7 +160,7 @@ The table below displays the calculated mass ($M_{\text{calculated}}$), publishe
 A direct 1:1 comparison between the masses calculated using the analytic gravitational lensing equation and the masses reported in Auger et al. (2009). The points tightly follow the red dashed line ($y = x$), demonstrating excellent agreement across the entire dynamic range from $2 \times 10^{10} M_\odot$ up to $4 \times 10^{11} M_\odot$.
 
 <p align="center">
-  <img src="download.png" alt="Calculated vs Published Lensing Mass Correlation" width="650"/>
+  <img src="graph3.png" alt="Calculated vs Published Lensing Mass Correlation" width="650"/>
 </p>
 
 *Figure 3: Scatter plot of Calculated Mass vs. Published Lensing Mass in units of $10^{10} M_\odot$, overlaid with the 1:1 equality line.*
@@ -174,7 +174,7 @@ Statistical assessment of the percentage discrepancies across the dataset confir
 - Over 80% of systems exhibit percentage differences under 3%.
 
 <p align="center">
-  <img src="Screenshot 2026-10-13 114936.png" alt="Summary Statistics and Largest Deviations" width="750"/>
+  <img src="result2.png" alt="Summary Statistics and Largest Deviations" width="750"/>
 </p>
 
 *Figure 4: Summary metrics and top 10 largest percentage differences between calculated and catalog masses.*
@@ -189,7 +189,7 @@ $$\Delta \% = \left(\frac{M_{\text{calculated}} - M_{\text{published}}}{M_{\text
 across all 50 lens systems. The residuals fluctuate symmetrically about zero with minimal bias, demonstrating the overall consistency of the spherical lens model.
 
 <p align="center">
-  <img src="download (1).png" alt="Difference Between Calculated and Published Masses" width="850"/>
+  <img src="graph2.png" alt="Difference Between Calculated and Published Masses" width="850"/>
 </p>
 
 *Figure 5: Bar chart showing the percentage difference for each individual galaxy lens in the SLACS survey.*
@@ -215,11 +215,11 @@ While the agreement between our derived mass values and the catalog entries is e
 Gravitational Lensing/
 ├── Gra_len (1).ipynb                 # Main Colab / Jupyter analysis notebook
 ├── README.md                         # Project documentation and summary
-├── download (2).png                  # Figure 1: Distribution of Einstein Radii
-├── Screenshot 2026-10-13 114926.png  # Figure 2: Calculated vs Published Mass Table Preview
-├── download.png                      # Figure 3: Calculated vs Published Mass Correlation
-├── Screenshot 2026-10-13 114936.png  # Figure 4: Statistical Metrics & Top Differences
-└── download (1).png                  # Figure 5: Percentage Difference Bar Plot
+├── graph1.png                        # Figure 1: Distribution of Einstein Radii
+├── result1.png                       # Figure 2: Calculated vs Published Mass Table Preview
+├── graph3.png                        # Figure 3: Calculated vs Published Mass Correlation
+├── result2.png                       # Figure 4: Statistical Metrics & Top Differences
+└── graph2.png                        # Figure 5: Percentage Difference Bar Plot
 ```
 
 ---
